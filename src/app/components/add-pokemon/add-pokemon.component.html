@@ -1,0 +1,24 @@
+
+<form class="add-pokemon" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" placeholder="Name" [(ngModel)]="name">
+  </div>
+    <div class="form-control">
+      <label for="type">Type: </label>
+      <input type="text" name="type" id="type" placeholder="Types(... , ... , ...)" [(ngModel)]="type">
+    </div>
+    <div class="form-control">
+      <label for="description">Description: </label>
+      <textarea type="text" name="description" id="description" placeholder="Description of he pokémon" [(ngModel)]="description"></textarea>
+    </div>
+
+    <div class="form-control">
+      <label for="urlImage">Url Image: </label>
+      <input type="text" name="urlImage" id="urlImage" placeholder="Set the url to the image" [(ngModel)]="imgUrl">
+    </div>
+    <div class="btn-wrapper">
+    <input class="btn" type="submit" value ='Save Pokemon' mat-raised-button/>
+    <button class="btn-reset" type="reset" mat-raised-button>Reset</button>
+  </div>
+</form>

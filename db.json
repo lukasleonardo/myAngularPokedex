@@ -1,0 +1,53 @@
+{
+  "Pokemon": [
+    {
+      "id": "1",
+      "name": "Bulbasaur",
+      "type": "Grass, Poison",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+      "description": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow."
+    },
+    {
+      "id": "2",
+      "name": "Ivysaur",
+      "type": "Grass ,Posion",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+      "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+    },
+    {
+      "id": "3",
+      "name": "Venosaur",
+      "type": "Grass ,Poison",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+      "description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+    },
+    {
+      "id": "4",
+      "name": "Charmander",
+      "type": "Fire",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "description": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."
+    },
+    {
+      "id": "5",
+      "name": "Charmeleon",
+      "type": "Fire",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+      "description": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings."
+    },
+    {
+      "id": "6",
+      "name": "Charizard",
+      "type": "Fire,Flying",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+      "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
+    },
+    {
+      "name": "Squirtle",
+      "type": "Water",
+      "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+      "imgUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+      "id": "itSmjU-"
+    }
+  ]
+}

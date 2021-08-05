@@ -1,0 +1,43 @@
+.add-pokemon{
+  border: 3px solid steelblue;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  .form-control{
+    margin: 20px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-control input, textarea{
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  .form-control label{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .btn {
+    display: inline-block;
+    background: rgb(25, 62, 184);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+
