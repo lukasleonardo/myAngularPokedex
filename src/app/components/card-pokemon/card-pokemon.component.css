@@ -1,15 +1,42 @@
 .pkm-card{
+  min-width: 800px;
   max-width: 800px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   border: 2px solid #0047AB;
 }
 
 img{
   background-size: cover;
-  height: 200px;
-  width: 300px;
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.ctrl-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5px;
+
+}
+
+button{
+  margin-top: 5px ;
+  margin-right: 15px;
+}
+
+.btn-del{
+  background: brown;
+
+}
+
+.btn-edit{
+  background: cornflowerblue;
+}
+
+.mat-card{
+ padding: 0;
 }

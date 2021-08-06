@@ -9,6 +9,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule} from '@angular/forms';
 
 
+
 import { AppComponent } from './app.component';
 import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -19,11 +20,31 @@ import { AddPokemonComponent } from './components/add-pokemon/add-pokemon.compon
 
 const appRoutes:Routes = [
   {
+    path:'',
+    redirectTo:'pokemon',
+    pathMatch: 'full'
+  },
+  {
+  path:'pokemon',
+  children: [
+  {
     path:'', component: PokemonComponent
   },
   {
-    path:'add-pokemon', component:AddPokemonComponent
+    path:'add',
+    children: [
+      {
+        path:'',
+        component:AddPokemonComponent
+      },
+      {
+        path:':id',
+        component:AddPokemonComponent
+      },
+    ]
   }
+],
+}
 ]
 
 @NgModule({

@@ -1,3 +1,3 @@
 <div class="pokemon" >
-<app-card-pokemon *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></app-card-pokemon>
+<app-card-pokemon *ngFor="let pokemon of pokemons" [pokemon]="pokemon"  (delPkm)="deletePokemon(pokemon)"></app-card-pokemon>
 </div>

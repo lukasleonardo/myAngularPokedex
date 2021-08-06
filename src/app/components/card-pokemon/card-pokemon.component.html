@@ -1,4 +1,4 @@
-<mat-card class="pkm-card" >
+<mat-card class="pkm-card" (dblclick)="onDblClick()" >
   <mat-card-header>
     <mat-card-title>{{pokemon.name}}</mat-card-title>
     <mat-card-subtitle >{{pokemon.type}}</mat-card-subtitle>
@@ -7,4 +7,18 @@
   <mat-card-content>
     <p>{{pokemon.description}}</p>
   </mat-card-content>
+  <ng-template [ngIf]= "show">
+    <mat-card-actions class="ctrl-btn">
+      <button class="btn-edit" mat-mini-fab (click)="onClic(pokemon)">
+        <mat-icon class="material-icons-outlined">
+          edit
+        </mat-icon>
+      </button>
+      <button class="btn-del" mat-mini-fab (click)="onClick(pokemon)">
+        <mat-icon class="material-icons-outlined">
+        delete
+        </mat-icon>
+      </button>
+    </mat-card-actions>
+  </ng-template>
 <mat-card>
