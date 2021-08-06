@@ -42,8 +42,6 @@ export class AddPokemonComponent implements OnInit {
   }
 
   onSubmit(){
-
-
     if(this.id){
       const newPkm = {
         id:this.id,
@@ -53,7 +51,7 @@ export class AddPokemonComponent implements OnInit {
         imgUrl:this.imgUrl
       }
       this.editPokemon(newPkm);
-      console.log('BILADA')
+
 
     }else{
       const newPkm = {
